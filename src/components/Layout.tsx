@@ -9,7 +9,6 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({children}) => {
     return(
         <div className='container-fluid display-container py-1 d-flex flex-column'> 
-        {/*   min-vh-100  */}
         <Header/>
         <main className="flex-grow-1">{children}</main>
         <Footer/>
