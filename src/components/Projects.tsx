@@ -44,7 +44,7 @@ const projectsData: Project[] = [
   },
   {
     id: 5,
-    title: "Markdown Editor and Previewer",
+    title: "Markdown Previewer",
     description: "React app displaying an text editor and a preview area, where the user can see reflected all the markdown styles used. Developed for the Front End Libraries certification on FreeCodeCamp.org",
     image: '/screenshots/markdown-previewer.png',
     liveLink: "https://markdown-previewer-wp88.onrender.com/",
