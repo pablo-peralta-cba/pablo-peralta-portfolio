@@ -3,8 +3,8 @@ import React from "react";
 const Footer: React.FC = () => {
 
     return(
-        <div  className="socialMedia position-fixed bottom-0 start-50 translate-middle-x py-3">
-        <ul className="d-flex justify-content-center align-items-center gap-4 m-0 p-0">
+        <div  className="socialMedia position-fixed bottom-0 start-50 translate-middle-x py-2">
+        <ul className="d-flex justify-content-center align-items-center gap-4 m-0 p-0 list-unstyled">
             <li><a href="https://www.linkedin.com/in/pablo-federico-peralta/" target="_blank" rel="noopener noreferrer">
             <svg width="30" height="30" viewBox="0 0 24 24" fill="white" opacity="0.7" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 3C5.1 3 6 3.9 6 5C6 6.1 5.1 7 4 7C2.9 7 2 6.1 2 5C2 3.9 2.9 3 4 3ZM2 21H6V9H2V21ZM10 9V21H14V14C14 12.3 15.3 11 17 11C18.7 11 20 12.3 20 14V21H24V14C24 10.1 20.9 7 17 7C14.2 7 12 8.5 11 10.4V9H10Z"/>
