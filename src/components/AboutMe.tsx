@@ -145,7 +145,7 @@ const AboutMe: React.FC = () => {
           <h2>Experience</h2>
           <br />
           
-          <h4 className="position-name"><span className="workplace">Bibliotecas Populares Cba</span> | <span className="position-desc">Full Stack Developer</span></h4>
+          <h4 className="position-name"><span className="workplace">Bibliotecas Populares Cba</span> | <span className="position-desc">Fullstack Developer</span></h4>
           <i className="lapse-worked">Sept 2024 - Present</i>
           <p className="experience-text">Complete development of a website that connects with all major public libraries in the province of Córdoba, Argentina.</p>
           <p className="experience-text">Check further information about this website on <a href="#projects">projects</a>.</p>
@@ -153,11 +153,11 @@ const AboutMe: React.FC = () => {
           <br />
           <hr className="experience-divider" />
           <br />
-          <h4 className="position-name"><span className="workplace">Wesfil Australia</span> | <span className="position-desc">Communications Specialist</span></h4>
+          <h4 className="position-name"><span className="workplace">Wesfil Australia</span> | <span className="position-desc">Backend Developer</span></h4>
           <i className="lapse-worked">Aug 2023 - April 2024</i>
-          <p className="experience-text"> Implementation of internal corporate communication strategies.</p>
-          <p className="experience-text">Coordination and synergy with the company’s headquarters and various branches across Australia.</p> 
-          <p className="experience-text">Communication with clients and suppliers.</p>
+          <p className="experience-text"> Developed and maintained RESTful APIs using Node.js and Express to support the company's internal order processing system.</p>
+          <p className="experience-text">Contributed to the development of key backend features for the customer management application using Typescript and PostgreSQL, focusing on data integrity and performance.</p> 
+          <p className="experience-text">Collaborated with frontend developers to integrate APIs and ensure seamless data flow.</p>
           <br />
           <hr className="experience-divider" />
           <br />
