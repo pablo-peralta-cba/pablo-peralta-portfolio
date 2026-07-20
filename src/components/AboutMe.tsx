@@ -73,41 +73,52 @@ const AboutMe: React.FC = () => {
           <div id='myStory' className='subsection'>
             <h2>My Story</h2>
             <p>
-              I'm a full-stack developer buzzing with excitement to build
-              impactful web solutions. My toolkit includes JavaScript, React,
-              Node.js, PostgreSQL, and MongoDB, and I'm constantly driven by the
-              challenge of creating scalable and efficient applications that
-              deliver great user experiences.
+              I'm a dynamic developer focused on building efficient digital
+              solutions that drive business growth. By combining my Full-Stack
+              foundation with WordPress expertise, n8n automation, and AI
+              integration, I design smart workflows and scalable web
+              applications engineered to optimize processes and deliver
+              outstanding user experiences.
             </p>
             <p>
-              Apart from my journey into web development I have a background in
-              Social Communications, copywriting, and journalism, which has
-              polished my ability to communicate effectively. My experiences
-              living and working in diverse environments like Australia, Brazil,
-              and Thailand have not only broadened my perspective but also gave
-              me strong adaptability and collaboration skills. I speak fluent
-              English and Portuguese, besides being a native Spanish speaker.
+              Beyond my technical path, my background in Social Communications
+              and journalism sharpens my strategic thinking and clarity in
+              documenting complex ideas. Currently expanding my horizons with a
+              university degree in Data Science and AI, I merge analytical
+              problem-solving with a global mindset—shaped by living and working
+              in diverse cultures like Australia, Brazil, and Thailand. I am
+              fluent in English, Portuguese, and native in Spanish.
             </p>
             <p>
-              I'm a highly curious individual with a thirst for knowledge,
-              currently exploring the amazing landscape of electronic music
-              production. Now, I'm on the lookout for exciting IT opportunities
-              where I can bring my energy, skills, and fresh perspective into
-              challenging projects and continue my growth as a developer.
+              Driven by deep curiosity, I love exploring data trends and the
+              creative landscape of electronic music production. Now, I'm on the
+              lookout for exciting IT opportunities and freelance collaborations
+              where I can bring my energy, multidisciplinary skill set, and
+              fresh automation perspective into challenging tech projects.
             </p>
           </div>
-
           <div id='technologiesUsed' className='subsection'>
             <h2>Technologies Used</h2>
             <div className='technologies-grid'>
+              {/* --- AI & AUTOMATION (Tu foco fuerte actual) --- */}
               <div className='technology'>
-                <img className='icon' src='/html-icon.png' alt='HTML Icon' />
-                <span>HTML</span>
+                <img className='icon' src='/n8n-icon.png' alt='n8n Icon' />
+                <span>n8n</span>
               </div>
               <div className='technology'>
-                <img className='icon' src='/css-icon.png' alt='CSS Icon' />
-                <span>CSS</span>
+                <img className='icon' src='/llm-icon.png' alt='LLMs Icon' />
+                <span>LLMs</span>
               </div>
+              <div className='technology'>
+                <img
+                  className='icon'
+                  src='/wordpress-icon.png'
+                  alt='WordPress Icon'
+                />
+                <span>WordPress</span>
+              </div>
+
+              {/* --- FRONTEND CODE --- */}
               <div className='technology'>
                 <img
                   className='icon'
@@ -116,7 +127,6 @@ const AboutMe: React.FC = () => {
                 />
                 <span>JavaScript</span>
               </div>
-
               <div className='technology'>
                 <img
                   className='icon'
@@ -125,6 +135,16 @@ const AboutMe: React.FC = () => {
                 />
                 <span>ReactJS</span>
               </div>
+              <div className='technology'>
+                <img className='icon' src='/html-icon.png' alt='HTML Icon' />
+                <span>HTML</span>
+              </div>
+              <div className='technology'>
+                <img className='icon' src='/css-icon.png' alt='CSS Icon' />
+                <span>CSS</span>
+              </div>
+
+              {/* --- BACKEND & CLOUD --- */}
               <div className='technology'>
                 <img
                   className='icon'
@@ -135,12 +155,11 @@ const AboutMe: React.FC = () => {
               </div>
               <div className='technology'>
                 <img
-                  id='express'
                   className='icon'
-                  src='/express-icon.png'
-                  alt='ExpressJS Icon'
+                  src='/postgresql-icon.png'
+                  alt='PostgreSQL Icon'
                 />
-                <span>ExpressJS</span>
+                <span>PostgreSQL</span>
               </div>
               <div className='technology'>
                 <img
@@ -151,33 +170,11 @@ const AboutMe: React.FC = () => {
                 <span>MongoDB</span>
               </div>
               <div className='technology'>
-                <img
-                  className='icon'
-                  src='/postgresql-icon.png'
-                  alt='PostgreSQL Icon'
-                />
-                <span>PostgreSQL</span>
+                <img className='icon' src='/aws-icon.png' alt='AWS Icon' />
+                <span>AWS</span>
               </div>
-              <div className='technology'>
-                <img className='icon' src='/mysql-icon.png' alt='MySQL Icon' />
-                <span>MySQL</span>
-              </div>
-              <div className='technology'>
-                <img
-                  className='icon'
-                  src='/ts-icon.jpeg'
-                  alt='TypeScript Icon'
-                />
-                <span>TypeScript</span>
-              </div>
-              <div className='technology'>
-                <img
-                  className='icon'
-                  src='/wordpress-icon.png'
-                  alt='WordPress Icon'
-                />
-                <span>WordPress</span>
-              </div>
+
+              {/* --- TOOLS --- */}
               <div className='technology'>
                 <img
                   className='icon'
@@ -188,8 +185,86 @@ const AboutMe: React.FC = () => {
               </div>
             </div>
           </div>
-
           <div id='experience' className='subsection'>
+            <h2>Experience</h2>
+            <br />
+
+            {/* --- 1. FREELANCE & CONSULTANT (Foco Actual) --- */}
+            <h4 className='position-name'>
+              <span className='workplace'>Freelance & Tech Consultant</span> |{' '}
+              <span className='position-desc'>
+                Web Developer & Automation Specialist
+              </span>
+            </h4>
+            <i className='lapse-worked'>Oct 2025 - Present</i>
+            <p className='experience-text'>
+              Manage the end-to-end lifecycle of digital products, combining
+              custom WordPress architectures and Full-Stack technologies to
+              deliver tailored solutions for eCommerce, media, and corporate
+              clients.
+            </p>
+            <p className='experience-text'>
+              Architect intelligent business platforms, optimizing UX,
+              conversion flows, and exploring automated workflows to maximize
+              operational efficiency.
+            </p>
+
+            <br />
+            <hr className='experience-divider' />
+            <br />
+
+            {/* --- 2. NGO PROJECT (Datos y Visualización) --- */}
+            <h4 className='position-name'>
+              <span className='workplace'>ACIJ + La Poderosa</span> |{' '}
+              <span className='position-desc'>Frontend Developer</span>
+            </h4>
+            <i className='lapse-worked'>Jun 2025 - Sep 2025</i>
+            <p className='experience-text'>
+              Developed a visually engaging web platform to transform a complex
+              social and economic study covering over 5,000 households into an
+              accessible, interactive data-driven experience.
+            </p>
+
+            <br />
+            <hr className='experience-divider' />
+            <br />
+
+            {/* --- 3. BIBLIOTECAS POPULARES (Arquitectura) --- */}
+            <h4 className='position-name'>
+              <span className='workplace'>Bibliotecas Populares Cba</span> |{' '}
+              <span className='position-desc'>Fullstack Developer</span>
+            </h4>
+            <i className='lapse-worked'>Jul 2024 - Jan 2026</i>
+            <p className='experience-text'>
+              Designed and built a web platform to connect public libraries in
+              Córdoba. Led the full-stack architecture using Node.js, Express,
+              and MongoDB, facilitating seamless data management and user
+              interaction.
+            </p>
+            <p className='experience-text'>
+              Check further information about this website on{' '}
+              <a href='#projects'>projects</a>.
+            </p>
+
+            <br />
+            <hr className='experience-divider' />
+            <br />
+
+            {/* --- 4. GENWORDS (Tu gran ventaja comunicacional) --- */}
+            <h4 className='position-name'>
+              <span className='workplace'>Genwords</span> |{' '}
+              <span className='position-desc'>
+                Copywriter - Inbound Marketing
+              </span>
+            </h4>
+            <i className='lapse-worked'>Feb 2019 - March 2022</i>
+            <p className='experience-text'>
+              Crafted strategic, SEO-driven content and marketing copy for
+              diverse regional industries (B2B, B2C, SaaS), bridging the gap
+              between business goals and audience engagement.
+            </p>
+          </div>
+          {/* <div id='experience' className='subsection'>
             <h2>Experience</h2>
             <br />
 
@@ -252,7 +327,7 @@ const AboutMe: React.FC = () => {
               </li>
               <li>Edition following SEO and print media requirements.</li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
