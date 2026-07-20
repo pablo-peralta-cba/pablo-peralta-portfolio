@@ -10,9 +10,11 @@ const Home: React.FC = () => {
         Hi there. I'm <span className='brandName'>Pablo</span>
       </h1>
       <h2 className='home-subtitle'>
-        Fullstack Developer - Frontend - Backend
+        Fullstack Dev - WordPress - AI and N8N automation
       </h2>
-      <p className='home-text'>Robust and scalable web solutions</p>
+      <p className='home-text'>
+        Scaling businesses through AI, automation, and smart web solutions.
+      </p>
     </section>
   );
 };
